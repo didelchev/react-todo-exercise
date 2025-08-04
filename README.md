@@ -1,6 +1,6 @@
 # TO DO Exercise 
 
-📘 Quick task: Rebuild a basic to-do list app or counter using hooks.
+📘 Quick task: Rebuild a basic to-do list app.
 
 ## Basic concepts covered:
 
@@ -10,5 +10,5 @@
   - Event handling
   - Conditional rendering
   - List rendering with .map()
-  - useEffect and useState hooks
+  - useState hook
 
