@@ -1,0 +1,82 @@
+.wrapper {
+    background-color: rgb(128, 128, 128);
+    height: 100vh;
+    color: white;
+}
+
+.wrapper h1 {
+    text-align: center;
+}
+
+.task-input {
+    display: flex;
+    margin: 0 auto;
+    gap: 1em;
+    width: 100%;
+    padding: 1em;
+}
+
+.task-input input{
+    padding: 1em;
+    width: 100%;
+    border-radius: 1.5em;
+    background-color: white;
+    border: none;
+    font-size: 1em;
+}
+
+.task-input button{
+    border: none;
+    padding: 1em 2.5em;
+    border-radius: 1.5em;
+    background-color: lightcoral;
+    color: white;
+}
+
+.task-input button:hover{
+    background-color: rgb(234, 99, 99);
+}
+
+
+.completed-task{
+    text-decoration: line-through;
+}
+
+
+.all-tasks{
+    display: block;
+    width: 100%;
+}
+
+.all-tasks li{
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+
+.single-task{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    padding: 0 1.5em;
+    
+}
+
+
+.emoji-wrapper{
+    display: flex;
+    gap: 1em;
+}
+
+.emoji-wrapper .emojis{
+    padding: 0.5em;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+}
+
+.emoji-wrapper button:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+}
